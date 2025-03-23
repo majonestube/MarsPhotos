@@ -108,10 +108,3 @@ fun ErrorScreenPreview() {
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun PhotosGridScreenPreview() {
-    MarsPhotosTheme {
-        ResultScreen(stringResource(R.string.placeholder_success))
-    }
-}
